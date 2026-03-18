@@ -6,8 +6,8 @@ public class Student {
 
    public Student(String name, double grade) {
       this.name = name;
-      this.setGrade(grade);
-   }+
+      this.setGrade(grade);// ¡Aquí está la magia!
+   }
 
    public String getName() {
       return name;
@@ -24,6 +24,5 @@ public class Student {
          this.grade =0;
          System.out.println("Nota no válida, se asignó por defecto");
       }
-
    }
 }
